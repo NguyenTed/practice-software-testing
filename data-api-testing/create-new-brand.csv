@@ -1,7 +1,6 @@
 name,slug,expect
-Brand_0_OB,brand-0-ob,201,
-Brand_1_XT,brand-1-xt,201,
-,,422,
-Brand_No_Slug,,422,
-,slug-only,422,
- , ,422,
+New Brand,new-brand,201
+,,422
+Brand No Slug,,422
+,slug-only,422
+ , ,422
