@@ -30,10 +30,10 @@ jobs:
             --iteration-data "./data-api-testing/get-brand-by-id.csv"
 
         # POST /brands
-      - name: Brand by ID
+      - name: Create new brand
         run: |
           postman collection run 39797948-6ffa39af-9513-47f5-8a4f-e88bae40707b \
             -e 39797948-e54b0315-cd3a-4ea2-bccd-bf1438041ea4 \
             -i "Admin logs in" \
-            -i "Get brand by ID" \
+            -i "Create new brand" \
             --iteration-data "./data-api-testing/create-new-brand.csv"
